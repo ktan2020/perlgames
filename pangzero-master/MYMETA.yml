@@ -1,0 +1,27 @@
+---
+abstract: 'a fast-paced action game about popping balloons with a harpoon'
+author:
+  - 'UPi <upi@sourceforge.net>'
+  - 'SAdam <sadam@apocalypse.rulez.org>'
+  - 'DaniGM <danigm@gmail.com>'
+  - 'Elio Blanca <eblanca76@users.sourceforge.net>'
+build_requires: {}
+configure_requires:
+  Module::Build: '0.38'
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.140640'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Games-PangZero
+requires:
+  File::ShareDir: '1.00'
+  File::Spec: '0'
+  SDL: '2.536'
+  Time::HiRes: '0'
+resources:
+  bugtracker: http://github.com/kthakore/pangzero/issues
+  license: http://opensource.org/licenses/gpl-license.php
+  repository: http://github.com/kthakore/pangzero
+version: v1.4.1

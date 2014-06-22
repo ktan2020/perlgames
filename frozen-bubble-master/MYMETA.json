@@ -1,0 +1,110 @@
+{
+   "abstract" : "Puzzle with Bubbles",
+   "author" : [],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "gpl_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Games-FrozenBubble",
+   "no_index" : {
+      "directory" : [
+         "server"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Alien::SDL" : "1.413",
+            "Compress::Bzip2" : "0",
+            "Data::Dumper" : "0",
+            "Errno" : "0",
+            "ExtUtils::CBuilder" : "0",
+            "ExtUtils::ParseXS" : "2.16",
+            "File::Basename" : "0",
+            "File::Copy" : "0",
+            "File::Slurp" : "0",
+            "File::Spec::Functions" : "0",
+            "Getopt::Long" : "0",
+            "IO::Socket" : "1.24",
+            "IPC::System::Simple" : "0",
+            "Locale::Maketext::Extract" : "0",
+            "Locale::Maketext::Simple" : "0",
+            "Math::Trig" : "0",
+            "Module::Build" : "0.36",
+            "SDL" : "2.511",
+            "Time::HiRes" : "0",
+            "autodie" : "0",
+            "parent" : "0",
+            "perl" : "5.008"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Alien::SDL" : "1.412",
+            "Data::Dumper" : "0",
+            "Errno" : "0",
+            "ExtUtils::CBuilder" : "0",
+            "ExtUtils::ParseXS" : "2.16",
+            "File::Basename" : "0",
+            "File::Copy" : "0",
+            "File::Slurp" : "0",
+            "File::Spec::Functions" : "0",
+            "Getopt::Long" : "0",
+            "IO::Socket" : "1.24",
+            "IPC::System::Simple" : "0",
+            "Locale::Maketext::Extract" : "0",
+            "Locale::Maketext::Simple" : "0",
+            "Math::Trig" : "0",
+            "Module::Build" : "0.36",
+            "SDL" : "2.511",
+            "Time::HiRes" : "0",
+            "autodie" : "0",
+            "parent" : "0",
+            "perl" : "5.008"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Alien::SDL" : "1.413",
+            "Carp" : "0",
+            "Compress::Bzip2" : "0",
+            "Data::Dumper" : "0",
+            "DynaLoader" : "0",
+            "Errno" : "0",
+            "Fcntl" : "0",
+            "File::Glob" : "0",
+            "File::ShareDir" : "1.00",
+            "File::Which" : "0",
+            "Getopt::Long" : "0",
+            "IO::Socket" : "1.24",
+            "IPC::System::Simple" : "0",
+            "Locale::Maketext::Extract" : "0",
+            "Locale::Maketext::Simple" : "0",
+            "Math::Trig" : "0",
+            "POSIX" : "0",
+            "SDL" : "2.511",
+            "Time::HiRes" : "0",
+            "parent" : "0",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kthakore/frozen-bubble/issues"
+      },
+      "license" : [
+         "http://opensource.org/licenses/gpl-2.0.php"
+      ],
+      "repository" : {
+         "url" : "http://github.com/kthakore/frozen-bubble"
+      }
+   },
+   "version" : "2.213"
+}

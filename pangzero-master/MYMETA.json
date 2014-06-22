@@ -1,0 +1,47 @@
+{
+   "abstract" : "a fast-paced action game about popping balloons with a harpoon",
+   "author" : [
+      "UPi <upi@sourceforge.net>",
+      "SAdam <sadam@apocalypse.rulez.org>",
+      "DaniGM <danigm@gmail.com>",
+      "Elio Blanca <eblanca76@users.sourceforge.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "gpl_1"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Games-PangZero",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.00",
+            "File::Spec" : "0",
+            "SDL" : "2.536",
+            "Time::HiRes" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/kthakore/pangzero/issues"
+      },
+      "license" : [
+         "http://opensource.org/licenses/gpl-license.php"
+      ],
+      "repository" : {
+         "url" : "http://github.com/kthakore/pangzero"
+      }
+   },
+   "version" : "v1.4.1"
+}
